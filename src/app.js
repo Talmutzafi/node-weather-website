@@ -6,7 +6,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express()
-const port = 3000
+const port = proccess.env.PORT || 3000
 console.log('dirName', path.join(__dirname, '../public/index.html'))
 
 
